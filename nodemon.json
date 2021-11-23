@@ -1,0 +1,12 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node -r tsconfig-paths/register src/main.ts",
+
+  "env": {
+    "MONGO_URI": "mongodb://localhost:27017/seamstress",
+    "SKIP": "20",
+    "SECRET": "800*)jo8h2kj88Uk08239[oLJO*8y24"
+  }
+}
